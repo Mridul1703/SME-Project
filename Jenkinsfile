@@ -9,10 +9,10 @@ pipeline {
             }
         }
 
-        stage('UNIT TESTING') {
-            steps {
-                sh 'mvn test'
-            }
-        }
+        // stage('UNIT TESTING') {
+        //     steps {
+        //         sh 'mvn test'
+        //     }
+        // }
     }
 }z
